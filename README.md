@@ -1,3 +1,3 @@
-# App Help Desk
-App Help Desk (App para abertura e acompanhamento de suportes técnicos) <br/>
-Projeto desenvolvido no curso de PHP - desenvolvimento web (Udemy), aulas ministradas pelo instrutor Jorge Sant Ana.
+# Website Help Desk
+Website Help Desk (website para abertura e acompanhamento de suportes técnicos) <br/>
+Projeto desenvolvido no curso de Desenvolvimento Web (Udemy), no módulo de PHP, com aulas ministradas pelo instrutor Jorge Santana.
