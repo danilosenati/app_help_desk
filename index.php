@@ -44,15 +44,15 @@
                             <div class="form-group">
                                 <input name="senha" type="password" class="form-control" placeholder="Senha">
                             </div>
-                             
+
                             <!-- SE DIGITAR O USUARIO OU SENHA INVALIDO É EXIBIDO NA TELA A MENSAGEM ABAIXO:  -->
-                            <?php if(isset($_GET['login']) && $_GET['login'] == 'erro'){?>
+                            <?php if (isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
 
                                 <div class="text-danger">
-                                Usuário ou senha inválido(s)
+                                    Usuário ou senha inválido(s)
                                 </div>
 
-                                <?php } ?>
+                            <?php } ?>
 
                             <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
                         </form>
