@@ -54,6 +54,15 @@
 
                             <?php } ?>
 
+                            <!-- MENSAGEM EXIBIDA CASO O USUARIO TENTE ACESSAR ALGUMA PAGINA SEM ANTES TER FEITO O LOGIN NO SITE:  -->
+                            <?php if (isset($_GET['login']) && $_GET['login'] == 'erro2') { ?>
+
+                                <div class="text-danger">
+                                    É necessario fazer login no sistema.
+                                </div>
+
+                            <?php } ?>
+
                             <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
                         </form>
                     </div>

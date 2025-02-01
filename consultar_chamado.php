@@ -2,6 +2,11 @@
 
 session_start();
 
+/*
+  PARA ACESSAR A PAGINA CONSULTAR CHAMADO DIGITANDO O ENDEREÇO NO NAVEGADOR É PRECISO ENTRAR COM LOGIN E SENHA.
+  SE A SENHA OU USUÁRIO FOR INVALIDA, AO DIGITAR  consultar_chamado.php, O USUÁRIO SERÁ REDIRECIONADO PARA A PAGINA DE LOGIN.
+*/
+
 if(!isset($_SESSION["autenticado"]) ||$_SESSION["autenticado"] != "SIM" ){
     header('Location: index.php?login=erro2');
   }
